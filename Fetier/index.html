@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+    <link rel="icon" type="image/png" href="Video-img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="Video-img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="Video-img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Video-img/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content=".-.. . -- -... .-. ." />
+    <link rel="manifest" href="Video-img/favicon/site.webmanifest" />
+    <title style="font-family: 'Sigilos';">Fetier</title>
+</head>
+<body>
+    <div id="fontes">
+    <p style="font-family: 'Sumerio';">Obrigado pela atencao nos vemos em breve</p><br>
+    <p style="font-family: 'Sumerio';">Tenebris aguarda voces.</p><br>
+
+    <p style="font-family: 'Sumerio';">Olhe no espelho,<br>
+        Horror que nunca foi.<br>
+        Voce tem certeza<br>
+        Que pode amar alguem?<br>
+        Em nossa danca desenfreada<br>
+        Abrimos caminho ao horror<br>
+        Do ceu noturno e iluminado.<br><br>
+
+        E enquanto a insanidade<br>
+        Descia das alturas obscuras,<br>
+        Os ceus viram em dois meros<br>
+        Seres o ???? encarnado.<br>
+        voce ainda consegue me ouvir?
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', function(e) {
+        if (e.ctrlKey && e.key === 'c') { // Verifica se Ctrl+C foi pressionado
+        e.preventDefault(); // Impede a ação padrão (copiar)
+        alert('A cópia deste conteúdo não é permitida.'); // Exibe um alerta (opcional)
+        return false; // Evita a propagação do evento
+    }
+    });
+
+    document.onkeydown = function(e) {
+        if (event.keyCode == 67 && event.ctrlKey) {
+                return false;
+        }
+    }
+    </script>
+    
+    <audio autoplay loop>
+        <source src="trilhas/sacrificios.MP3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+</body>
+</html>

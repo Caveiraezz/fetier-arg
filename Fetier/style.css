@@ -1,0 +1,50 @@
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/Video-img/fundo.png);
+    background-size: cover; /* ou  */
+    background-repeat: inherit;
+    background-attachment: scroll;
+    color: #000000;
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Padrão */
+}
+
+#fontes{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 200%;
+}
+
+@font-face {
+    font-family: "Sigilos"; /* Dê um nome para a sua fonte */
+    src: url("Fontes/SigilosDoOutroLado-Regular.ttf") format("ttf"),
+         url("Fontes/SigilosDoOutroLado-Regular.ttf") format("ttf"),
+         url("Fontes/SigilosDoOutroLado-Regular.ttf") format("truetype"); /* Inclua os diferentes formatos para compatibilidade */
+    font-weight: normal; /* Opcional: define a espessura da fonte (normal, bold, etc.) */
+    font-style: normal; /* Opcional: define o estilo da fonte (normal, italic, etc.) */
+  }
+
+@font-face {
+    font-family: "Tenebris";
+    src: url("Fontes/N8ghtmare.ttf") format("ttf"),
+    url("Fontes/N8ghtmare.ttf") format("ttf"),
+    url("Fontes/N8ghtmare.ttf") format("opentype"); 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  @font-face {
+    font-family: "Sumerio";
+    src: url("Fontes/EasyCuneiform.ttf") format("ttf"),
+    url("Fontes/EasyCuneiform.ttf") format("ttf"),
+    url("Fontes/EasyCuneiform.ttf") format("opentype"); 
+    font-weight: normal; 
+    font-style: normal; 
+  }
